@@ -1,0 +1,166 @@
+/* Colors
+
+#0A9F05
+#fff
+#3E7CB1
+*/
+
+* {
+    line-height: 1.5;
+}
+
+body {
+    margin: 2rem;
+    background-color: #fff;
+}
+
+header {
+    background-color: #0A9F05;
+}
+
+.masthead {
+    background-image: url(../img/lake.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 50vh;
+}
+
+.masthead h1 {
+    text-align: left;
+    color: #fff;
+    padding-top: 20%;
+    padding-left: 5%;
+    font-size: 2.531rem;
+    font-family: 'Cantata One', serif;
+}
+
+.masthead p {
+    text-align: left;
+    color: #fff;
+    font-size: 0.75rem;
+    padding-left: 5%;
+}
+
+
+h3 {
+    font-size: 1.125rem;
+    font-family: 'Cantata One', serif;
+}
+
+p {
+    font-size: 0.75rem;
+    font-family: 'Imprima', sans-serif;
+}
+
+nav {
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+}
+
+a {
+    font-family: 'Imprima', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+hr {
+    border: 1px #0A9F05 solid;
+    margin-top: 3px;
+}
+
+#active {
+    color: #FFF;
+    background-color: #3E7CB1;
+}
+
+button {
+    margin: 10px;
+    font-family: 'Imprima', sans-serif;
+}
+
+img {
+    width: 100%;
+    float: none;
+}
+
+footer {
+    background-color: #0A9F05;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+i {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+/*media queries*/
+@media only screen and (min-width: 30rem){
+    html {
+        margin: 2rem;
+    }
+    
+    body {
+        max-width: 60rem;
+        margin: 0 auto; 
+    }
+
+    .masthead h1 {
+        font-size: 3.375rem;
+    }
+    
+    .masthead p {
+        font-size: 1rem;
+    }
+        
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    ul li {
+        padding: 0 5%;
+    }
+    
+    li {
+         display: inline-block;
+    }
+    
+    img {
+        width: 30%;
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .secondbr {
+        clear: both;
+    }
+    
+    i {
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+    }
+
+}
